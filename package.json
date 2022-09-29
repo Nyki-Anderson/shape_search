@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "js-uuid": "^0.0.6",
+    "nanoid": "^4.0.0",
+    "uuid": "^8.3.2"
+  }
+}
