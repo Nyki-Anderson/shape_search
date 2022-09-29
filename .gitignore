@@ -1,5 +1,0 @@
-writable/*
-spark
-*.env
-tests/*
-app/Config/*
