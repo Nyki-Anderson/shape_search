@@ -1,0 +1,179 @@
+INFO - 2022-06-24 12:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:18:03 --> CSRF token verified.
+INFO - 2022-06-24 12:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:18:14 --> CSRF token verified.
+INFO - 2022-06-24 12:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:18:16 --> CSRF token verified.
+INFO - 2022-06-24 12:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:18:17 --> CSRF token verified.
+INFO - 2022-06-24 12:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:18:18 --> CSRF token verified.
+INFO - 2022-06-24 12:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-24 12:18:19 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 286.
+ 1 SYSTEMPATH/Security/Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Filters\Filters->run('images/view_image/62753664bb588', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-24 12:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:18:21 --> CSRF token verified.
+INFO - 2022-06-24 12:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:18:23 --> CSRF token verified.
+INFO - 2022-06-24 12:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:18:36 --> CSRF token verified.
+INFO - 2022-06-24 12:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:18:38 --> CSRF token verified.
+INFO - 2022-06-24 12:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:18:39 --> CSRF token verified.
+INFO - 2022-06-24 12:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:18:53 --> CSRF token verified.
+INFO - 2022-06-24 12:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:18:55 --> CSRF token verified.
+INFO - 2022-06-24 12:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:19:03 --> CSRF token verified.
+INFO - 2022-06-24 12:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:19:05 --> CSRF token verified.
+INFO - 2022-06-24 12:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:19:10 --> CSRF token verified.
+INFO - 2022-06-24 12:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 12:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 18:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 18:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 18:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 18:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 18:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 21:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 21:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 21:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 21:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 22:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 22:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 22:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 22:30:55 --> CSRF token verified.
+CRITICAL - 2022-06-24 22:30:55 --> App\Validation\User_rules::validateBirthday(): Argument #1 ($month) must be of type string, null given, called in /Users/nykianderson/Sites/shape_search/vendor/codeigniter4/framework/system/Validation/Validation.php on line 306
+in APPPATH/Validation/User_rules.php on line 95.
+ 1 SYSTEMPATH/Validation/Validation.php(306): App\Validation\User_rules->validateBirthday(null, 'bday_month,bday_day,bday_year', [...], null)
+ 2 SYSTEMPATH/Validation/Validation.php(173): CodeIgniter\Validation\Validation->processRules('birthday', 'birthday', null, [...], [...])
+ 3 APPPATH/Controllers/Users.php(151): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Users->register()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-24 22:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 22:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 22:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 22:32:33 --> CSRF token verified.
+CRITICAL - 2022-06-24 22:32:33 --> App\Validation\User_rules::validateBirthday(): Argument #1 ($month) must be of type string, null given, called in /Users/nykianderson/Sites/shape_search/vendor/codeigniter4/framework/system/Validation/Validation.php on line 306
+in APPPATH/Validation/User_rules.php on line 95.
+ 1 SYSTEMPATH/Validation/Validation.php(306): App\Validation\User_rules->validateBirthday(null, 'bday_month,bday_day,bday_year', [...], null)
+ 2 SYSTEMPATH/Validation/Validation.php(173): CodeIgniter\Validation\Validation->processRules('birthday', 'birthday', null, [...], [...])
+ 3 APPPATH/Controllers/Users.php(151): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Users->register()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-24 22:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 22:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 22:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 22:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 22:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 22:53:20 --> CSRF token verified.
+CRITICAL - 2022-06-24 22:53:20 --> Undefined property: App\Controllers\Users::$UserModel
+in APPPATH/Controllers/Users.php on line 153.
+ 1 APPPATH/Controllers/Users.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Users::$UserModel', 'APPPATH/Controllers/Users.php', 153)
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Users->register()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-24 22:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 22:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 22:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 22:54:24 --> CSRF token verified.
+CRITICAL - 2022-06-24 22:54:24 --> Undefined variable $bday_year
+in APPPATH/Controllers/Users.php on line 153.
+ 1 APPPATH/Controllers/Users.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bday_year', 'APPPATH/Controllers/Users.php', 153)
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Users->register()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-24 22:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 22:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 22:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 22:56:42 --> CSRF token verified.
+CRITICAL - 2022-06-24 22:56:42 --> Undefined variable $bday_year
+in APPPATH/Models/UserModel.php on line 77.
+ 1 APPPATH/Models/UserModel.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bday_year', 'APPPATH/Models/UserModel.php', 77)
+ 2 APPPATH/Controllers/Users.php(157): App\Models\UserModel->formatBirthday('2005', '02', '2005')
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Users->register()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-24 22:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 22:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 22:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 22:57:58 --> CSRF token verified.
+CRITICAL - 2022-06-24 22:57:58 --> date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given
+in APPPATH/Models/UserModel.php on line 81.
+ 1 APPPATH/Models/UserModel.php(81): date_format('2018-02-2018', 'Y/m/d H:i:s')
+ 2 APPPATH/Controllers/Users.php(157): App\Models\UserModel->formatBirthday('2018', '02', '2018')
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Users->register()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-24 23:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 23:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 23:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 23:01:03 --> CSRF token verified.
+CRITICAL - 2022-06-24 23:01:03 --> date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given
+in APPPATH/Models/UserModel.php on line 81.
+ 1 APPPATH/Models/UserModel.php(81): date_format('2009/02/2009', 'Y/m/d H:i:s')
+ 2 APPPATH/Controllers/Users.php(157): App\Models\UserModel->formatBirthday('2009', '02', '2009')
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Users->register()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-24 23:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 23:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 23:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 23:09:32 --> CSRF token verified.
+CRITICAL - 2022-06-24 23:09:32 --> date_format(): Argument #1 ($object) must be of type DateTimeInterface, bool given
+in APPPATH/Models/UserModel.php on line 82.
+ 1 APPPATH/Models/UserModel.php(82): date_format(false, 'Y/m/d H:i:s')
+ 2 APPPATH/Controllers/Users.php(157): App\Models\UserModel->formatBirthday('2006', '02', '2006')
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Users->register()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-24 23:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 23:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 23:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-24 23:10:26 --> CSRF token verified.
+CRITICAL - 2022-06-24 23:10:26 --> CodeIgniter\Validation\Validation::run(): Argument #1 ($data) must be of type ?array, string given, called in /Users/nykianderson/Sites/shape_search/app/Controllers/Users.php on line 161
+in SYSTEMPATH/Validation/Validation.php on line 109.
+ 1 APPPATH/Controllers/Users.php(161): CodeIgniter\Validation\Validation->run('1969/12/31 19:00:00')
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Users->register()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

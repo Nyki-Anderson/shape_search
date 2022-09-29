@@ -1,0 +1,556 @@
+INFO - 2022-06-30 11:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 11:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 11:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 11:52:24 --> CSRF token verified.
+INFO - 2022-06-30 11:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 11:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 11:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 11:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 11:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 11:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 11:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 11:58:54 --> CSRF token verified.
+INFO - 2022-06-30 11:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 12:21:32 --> Invalid file: js/upload_profile_image.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('js/upload_profile_image.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('js/upload_profile_image', [], true)
+ 3 APPPATH/Views/templates/footer.php(57): view('js/upload_profile_image')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/footer.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('templates/footer', [], true)
+ 7 APPPATH/Controllers/Users.php(445): view('templates/footer', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Users->profile_image()
+ 9 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-30 12:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 12:33:18 --> foreach() argument must be of type array|object, string given
+in APPPATH/Views/templates/footer.php on line 57.
+ 1 APPPATH/Views/templates/footer.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH/Views/templates/footer.php', 57)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/footer.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('templates/footer', [], true)
+ 5 APPPATH/Controllers/Gallery.php(118): view('templates/footer', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Gallery->view_image('6275376dca99c')
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-30 12:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 12:33:36 --> foreach() argument must be of type array|object, string given
+in APPPATH/Views/templates/footer.php on line 57.
+ 1 APPPATH/Views/templates/footer.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH/Views/templates/footer.php', 57)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/footer.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('templates/footer', [], true)
+ 5 APPPATH/Controllers/Gallery.php(118): view('templates/footer', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Gallery->view_image('6275376dca99c')
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-30 12:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:34:13 --> CSRF token verified.
+INFO - 2022-06-30 12:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:34:15 --> CSRF token verified.
+INFO - 2022-06-30 12:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:38:05 --> CSRF token verified.
+INFO - 2022-06-30 12:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:38:09 --> CSRF token verified.
+INFO - 2022-06-30 12:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:44:17 --> CSRF token verified.
+INFO - 2022-06-30 12:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:44:28 --> CSRF token verified.
+INFO - 2022-06-30 12:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:44:30 --> CSRF token verified.
+INFO - 2022-06-30 12:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 12:45:10 --> Undefined variable $profile
+in APPPATH/Views/js/subscribe.php on line 18.
+ 1 APPPATH/Views/js/subscribe.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'APPPATH/Views/js/subscribe.php', 18)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/js/subscribe.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('js/subscribe', [], true)
+ 5 APPPATH/Views/templates/footer.php(58): view('js/subscribe')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/footer.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('templates/footer', [], true)
+ 9 APPPATH/Controllers/Gallery.php(121): view('templates/footer', [...])
+10 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Gallery->view_image('6214653a9ccff')
+11 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-30 12:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:45:10 --> CSRF token verified.
+INFO - 2022-06-30 12:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 12:55:16 --> Undefined variable $profile
+in APPPATH/Views/js/subscribe.php on line 18.
+ 1 APPPATH/Views/js/subscribe.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'APPPATH/Views/js/subscribe.php', 18)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/js/subscribe.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('js/subscribe', [], true)
+ 5 APPPATH/Views/templates/footer.php(58): view('js/subscribe')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/footer.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('templates/footer', [], true)
+ 9 APPPATH/Controllers/Gallery.php(122): view('templates/footer', [...])
+10 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Gallery->view_image('6214653a9ccff')
+11 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-30 12:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:55:17 --> CSRF token verified.
+INFO - 2022-06-30 12:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 12:57:48 --> Invalid file: js/subscribe.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('js/subscribe.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('js/subscribe', [], true)
+ 3 APPPATH/Views/templates/footer.php(58): view('js/subscribe')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/templates/footer.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('templates/footer', [], true)
+ 7 APPPATH/Controllers/Gallery.php(122): view('templates/footer', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Gallery->view_image('6214653a9ccff')
+ 9 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-30 12:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:58:57 --> CSRF token verified.
+INFO - 2022-06-30 12:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:59:00 --> CSRF token verified.
+INFO - 2022-06-30 12:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:59:01 --> CSRF token verified.
+INFO - 2022-06-30 12:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 12:59:17 --> CSRF token verified.
+INFO - 2022-06-30 12:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 13:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 13:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 13:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 13:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 13:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 13:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 13:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 13:22:30 --> CSRF token verified.
+INFO - 2022-06-30 13:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 13:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 13:28:24 --> CSRF token verified.
+INFO - 2022-06-30 13:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 13:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 13:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 13:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 13:40:30 --> CSRF token verified.
+INFO - 2022-06-30 14:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 14:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 14:08:49 --> CSRF token verified.
+INFO - 2022-06-30 14:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 14:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 14:13:13 --> CSRF token verified.
+INFO - 2022-06-30 15:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 15:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 15:42:33 --> CSRF token verified.
+INFO - 2022-06-30 15:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 15:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 15:42:54 --> CSRF token verified.
+INFO - 2022-06-30 15:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 15:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 15:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 15:47:23 --> CSRF token verified.
+INFO - 2022-06-30 15:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 15:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 15:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 15:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 15:52:22 --> CSRF token verified.
+INFO - 2022-06-30 15:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 15:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 15:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 15:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 15:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 15:58:18 --> CSRF token verified.
+INFO - 2022-06-30 15:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 15:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 16:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 16:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 16:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 16:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 16:55:22 --> CSRF token verified.
+INFO - 2022-06-30 17:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 17:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 17:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 17:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 17:47:11 --> Attempt to read property "tags" on null
+in APPPATH/Controllers/Dashboard.php on line 201.
+ 1 APPPATH/Controllers/Dashboard.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tags" on null', 'APPPATH/Controllers/Dashboard.php', 201)
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->upload_image('62154a02827af')
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-30 17:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 17:48:06 --> Attempt to read property "tags" on null
+in APPPATH/Controllers/Dashboard.php on line 201.
+ 1 APPPATH/Controllers/Dashboard.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tags" on null', 'APPPATH/Controllers/Dashboard.php', 201)
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->upload_image('62154a02827af')
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-30 17:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 17:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 17:49:28 --> Attempt to read property "tags" on null
+in APPPATH/Controllers/Dashboard.php on line 201.
+ 1 APPPATH/Controllers/Dashboard.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tags" on null', 'APPPATH/Controllers/Dashboard.php', 201)
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->upload_image('62154a02827af')
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-30 17:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 17:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 17:49:39 --> Attempt to read property "tags" on null
+in APPPATH/Controllers/Dashboard.php on line 201.
+ 1 APPPATH/Controllers/Dashboard.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tags" on null', 'APPPATH/Controllers/Dashboard.php', 201)
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->upload_image('6216a142f0854')
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-30 17:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 17:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 17:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 17:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 17:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 17:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 17:53:31 --> CSRF token verified.
+INFO - 2022-06-30 17:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 17:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:21:08 --> CSRF token verified.
+INFO - 2022-06-30 18:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:21:11 --> CSRF token verified.
+INFO - 2022-06-30 18:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 18:21:15 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 286.
+ 1 SYSTEMPATH/Security/Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Filters\Filters->run('images/view_image/6277c817689d7', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-30 18:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:24:03 --> CSRF token verified.
+INFO - 2022-06-30 18:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:25:47 --> CSRF token verified.
+INFO - 2022-06-30 18:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:26:45 --> CSRF token verified.
+INFO - 2022-06-30 18:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:27:25 --> CSRF token verified.
+INFO - 2022-06-30 18:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:28:38 --> CSRF token verified.
+INFO - 2022-06-30 18:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 18:31:34 --> Undefined array key 0
+in SYSTEMPATH/Router/RouteCollection.php on line 1134.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'SYSTEMPATH/Router/RouteCollection.php', 1134)
+ 2 SYSTEMPATH/Router/RouteCollection.php(1001): CodeIgniter\Router\RouteCollection->fillRouteParams('users/members/upload_image/([a-zA-Z0-9]+)', [])
+ 3 SYSTEMPATH/Common.php(913): CodeIgniter\Router\RouteCollection->reverseRoute('image_upload')
+ 4 APPPATH/Views/users/members/upload_image.php(13): route_to('image_upload')
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/users/members/upload_image.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('users/members/upload_image', [], true)
+ 8 APPPATH/Controllers/Dashboard.php(224): view('users/members/upload_image', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->upload_image('62753664bb588')
+10 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-30 18:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 18:34:18 --> preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+in SYSTEMPATH/Router/RouteCollection.php on line 1134.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated', 'SYSTEMPATH/Router/RouteCollection.php', 1134)
+ 2 SYSTEMPATH/Router/RouteCollection.php(1134): preg_match('#^([a-zA-Z0-9]+)$#u', null)
+ 3 SYSTEMPATH/Router/RouteCollection.php(1001): CodeIgniter\Router\RouteCollection->fillRouteParams('users/members/upload_image/([a-zA-Z0-9]+)', [...])
+ 4 SYSTEMPATH/Common.php(913): CodeIgniter\Router\RouteCollection->reverseRoute('image_upload', null)
+ 5 APPPATH/Views/users/members/upload_image.php(13): route_to('image_upload', null)
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/users/members/upload_image.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('users/members/upload_image', [], true)
+ 9 APPPATH/Controllers/Dashboard.php(224): view('users/members/upload_image', [...])
+10 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->upload_image('62753664bb588')
+11 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-30 18:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 18:34:27 --> Router.invalidParameterType
+in SYSTEMPATH/Router/RouteCollection.php on line 1135.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1135): CodeIgniter\Router\Exceptions\RouterException::forInvalidParameterType()
+ 2 SYSTEMPATH/Router/RouteCollection.php(1001): CodeIgniter\Router\RouteCollection->fillRouteParams('users/members/upload_image/([a-zA-Z0-9]+)', [...])
+ 3 SYSTEMPATH/Common.php(913): CodeIgniter\Router\RouteCollection->reverseRoute('image_upload', 'ROOTPATH/public_html')
+ 4 APPPATH/Views/users/members/upload_image.php(13): route_to('image_upload', 'ROOTPATH/public_html')
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/users/members/upload_image.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('users/members/upload_image', [], true)
+ 8 APPPATH/Controllers/Dashboard.php(224): view('users/members/upload_image', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->upload_image('62753664bb588')
+10 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-30 18:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 18:41:40 --> Undefined array key 0
+in SYSTEMPATH/Router/RouteCollection.php on line 1134.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'SYSTEMPATH/Router/RouteCollection.php', 1134)
+ 2 SYSTEMPATH/Router/RouteCollection.php(1001): CodeIgniter\Router\RouteCollection->fillRouteParams('users/members/upload_image/([a-zA-Z0-9]+)', [])
+ 3 SYSTEMPATH/Common.php(913): CodeIgniter\Router\RouteCollection->reverseRoute('image_upload')
+ 4 APPPATH/Views/users/members/upload_image.php(13): route_to('image_upload')
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/users/members/upload_image.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('users/members/upload_image', [], true)
+ 8 APPPATH/Controllers/Dashboard.php(224): view('users/members/upload_image', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->upload_image('62753664bb588')
+10 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-30 18:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 18:42:06 --> Undefined array key 0
+in SYSTEMPATH/Router/RouteCollection.php on line 1134.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'SYSTEMPATH/Router/RouteCollection.php', 1134)
+ 2 SYSTEMPATH/Router/RouteCollection.php(1001): CodeIgniter\Router\RouteCollection->fillRouteParams('users/members/upload_image/([a-zA-Z0-9]+)', [])
+ 3 SYSTEMPATH/Common.php(913): CodeIgniter\Router\RouteCollection->reverseRoute('image_upload')
+ 4 APPPATH/Views/users/members/upload_image.php(13): route_to('image_upload')
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/users/members/upload_image.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('users/members/upload_image', [], true)
+ 8 APPPATH/Controllers/Dashboard.php(224): view('users/members/upload_image', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->upload_image('62753664bb588')
+10 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-30 18:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 18:42:10 --> Undefined array key 0
+in SYSTEMPATH/Router/RouteCollection.php on line 1134.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'SYSTEMPATH/Router/RouteCollection.php', 1134)
+ 2 SYSTEMPATH/Router/RouteCollection.php(1001): CodeIgniter\Router\RouteCollection->fillRouteParams('users/members/upload_image/([a-zA-Z0-9]+)', [])
+ 3 SYSTEMPATH/Common.php(913): CodeIgniter\Router\RouteCollection->reverseRoute('image_upload')
+ 4 APPPATH/Views/users/members/upload_image.php(13): route_to('image_upload')
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/users/members/upload_image.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('users/members/upload_image', [], true)
+ 8 APPPATH/Controllers/Dashboard.php(224): view('users/members/upload_image', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->upload_image('62753664bb588')
+10 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-30 18:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 18:42:51 --> Undefined array key 0
+in SYSTEMPATH/Router/RouteCollection.php on line 1134.
+ 1 SYSTEMPATH/Router/RouteCollection.php(1134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'SYSTEMPATH/Router/RouteCollection.php', 1134)
+ 2 SYSTEMPATH/Router/RouteCollection.php(1001): CodeIgniter\Router\RouteCollection->fillRouteParams('users/members/upload_image/([a-zA-Z0-9]+)', [])
+ 3 SYSTEMPATH/Common.php(913): CodeIgniter\Router\RouteCollection->reverseRoute('image_upload')
+ 4 APPPATH/Views/users/members/upload_image.php(13): route_to('image_upload')
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/users/members/upload_image.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('users/members/upload_image', [], true)
+ 8 APPPATH/Controllers/Dashboard.php(224): view('users/members/upload_image', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->upload_image()
+10 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-30 18:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:43:19 --> CSRF token verified.
+INFO - 2022-06-30 18:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:46:45 --> CSRF token verified.
+INFO - 2022-06-30 18:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:54:03 --> CSRF token verified.
+INFO - 2022-06-30 18:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 18:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:30:47 --> CSRF token verified.
+INFO - 2022-06-30 19:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:33:28 --> CSRF token verified.
+INFO - 2022-06-30 19:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:34:31 --> CSRF token verified.
+INFO - 2022-06-30 19:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 19:36:32 --> Undefined variable $uploadFilename
+in APPPATH/Views/users/members/upload_image.php on line 30.
+ 1 APPPATH/Views/users/members/upload_image.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $uploadFilename', 'APPPATH/Views/users/members/upload_image.php', 30)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/users/members/upload_image.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('users/members/upload_image', [], true)
+ 5 APPPATH/Controllers/Dashboard.php(227): view('users/members/upload_image', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->upload_image()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-30 19:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:40:10 --> CSRF token verified.
+INFO - 2022-06-30 19:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:40:34 --> CSRF token verified.
+INFO - 2022-06-30 19:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 19:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:15:51 --> CSRF token verified.
+INFO - 2022-06-30 20:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:17:47 --> CSRF token verified.
+INFO - 2022-06-30 20:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 20:19:52 --> Too few arguments to function App\Controllers\Dashboard::upload_image(), 0 passed in /Users/nykianderson/Sites/shape_search/vendor/codeigniter4/framework/system/CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH/Controllers/Dashboard.php on line 90.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->upload_image()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-30 20:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:29:27 --> CSRF token verified.
+INFO - 2022-06-30 20:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:31:44 --> CSRF token verified.
+INFO - 2022-06-30 20:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:53:10 --> CSRF token verified.
+INFO - 2022-06-30 20:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 20:53:23 --> CSRF token verified.
+INFO - 2022-06-30 20:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 21:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 21:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 21:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 21:26:15 --> CSRF token verified.
+INFO - 2022-06-30 21:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 21:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 21:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 21:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 21:28:34 --> CSRF token verified.
+INFO - 2022-06-30 21:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 21:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 22:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 22:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 22:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 22:14:20 --> CSRF token verified.
+INFO - 2022-06-30 22:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 22:14:24 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 286.
+ 1 SYSTEMPATH/Security/Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Filters\Filters->run('images/view_image/6214653a9ccff', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-30 22:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 22:14:24 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 286.
+ 1 SYSTEMPATH/Security/Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Filters\Filters->run('images/view_image/6214653a9ccff', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-30 22:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 22:14:25 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 286.
+ 1 SYSTEMPATH/Security/Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Filters\Filters->run('images/view_image/6214653a9ccff', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-30 22:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 22:14:27 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 286.
+ 1 SYSTEMPATH/Security/Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Filters\Filters->run('images/view_image/6214653a9ccff', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+INFO - 2022-06-30 22:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 22:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 22:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2022-06-30 22:17:01 --> CSRF token verified.
+INFO - 2022-06-30 22:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2022-06-30 22:21:02 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 286.
+ 1 SYSTEMPATH/Security/Security.php(286): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(54): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Filters\Filters->run('images/view_image/6214653a9ccff', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
