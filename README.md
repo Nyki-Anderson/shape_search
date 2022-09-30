@@ -893,7 +893,7 @@ Creating the certificates for *local.shape-share.com*
 Created a new certificate valid for the following names 📜
  - "local.shape-share.com"
 
-The certificate is at "./local.shape-share.com.pem" and the key at "./local.shape-share.com-key.pem" ✅
+The certificate is at "./shape_search.local.pem" and the key at "./shape_search.local-key.pem" ✅
 
 It will expire on 28 October 2024 🗓
 ```
@@ -912,8 +912,8 @@ Edit virtual host configuration to find both *.pem* files.
 
 ```apacheconf
 SSLEngine on
-SSLCertificateFile "/usr/local/etc/ssl/local.shape-share.com.pem"
-SSLCertificateKeyFile "/usr/local/etc/ssl/local.shape-share.com-key.pem"
+SSLCertificateFile "/usr/local/etc/ssl/shape_search.local.pem"
+SSLCertificateKeyFile "/usr/local/etc/ssl/shape_search.local-key.pem"
 ```
 
 Add these lines to the *httpd-ssl.conf*
@@ -958,9 +958,9 @@ Create virtual host configuration file for **Shape-Share**.
 <VirtualHost *:443>
 
 #   General setup for the virtual host
-DocumentRoot "/Users/nykianderson/Sites/shape-share/public_html"
-ServerName local.shape-share.com
-ServerAlias wwww.local.shape-share.com https://local.shape-share.com http://local.shape-share.com
+DocumentRoot "/Users/nykianderson/Sites/shape_search_/public_html"
+ServerName shape_search.local
+ServerAlias wwww.shape_search.local https://shape_search.local http://shape_search.local
 ServerAdmin nyki.l.anderson@gmail.com
 ErrorLog "/usr/local/var/log/httpd/share_error_log"
 TransferLog "/usr/local/var/log/httpd/share_access_log"
@@ -985,7 +985,7 @@ SSLEngine on
 #   Some ECC cipher suites (http://www.ietf.org/rfc/rfc4492.txt)
 #   require an ECC certificate which can also be configured in
 #   parallel.
-SSLCertificateFile "/usr/local/etc/ssl/certs/local.shape-share.com.pem"
+SSLCertificateFile "/usr/local/etc/ssl/certs/shape_search.local.pem"
 #SSLCertificateFile "/usr/local/etc/httpd/server-dsa.crt"
 #SSLCertificateFile "/usr/local/etc/httpd/server-ecc.crt"
 
@@ -1145,8 +1145,8 @@ Mapping the *local.shape-share.com* extension. In order to access site locally w
 #### */etc/hosts*
 
 ```apacheconf
-127.0.0.1       local.shape-share.com www.local.shape-share.com
-::1             local.shape-share.com www.local.shape-share.com
+127.0.0.1       shape_search.local www.shape_search.local
+::1             shape_search.local www.shape_search.local
 ```
 
 Clear the local DNS cache.
@@ -1155,4 +1155,4 @@ Clear the local DNS cache.
 > dscacheutil -flushcache
 ```
 
-# https://github.com/Nyki-Anderson/shape-share-development.git
+# https://github.com/Nyki-Anderson/shape_search.git
