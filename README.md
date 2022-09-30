@@ -5,7 +5,7 @@ Shape-Share is a simple online image sharing platform where members can upload, 
 
 With a focus on security, Shape-Share utilizes SSL, data-at-rest encryption, and many other techniques to protect members' personal data. Privacy settings can be adjusted to tailor the degree of "sharing" each member has with the rest of the Shape-Share community. All images are required to be created by the member that uploads them (using Paint, GIMP, etc.) and must be 100% original. Members agree to this when registering for an account. Shape-Share also monitors content for plagiarism, profanity, and general misconduct to keep the community safe and inclusive for all ages.
 
-A Labor of Love
+## A Labor of Love
 This personal project started as a way to learn front and backend website development and has evolved into a self-teaching tool I wish to share with the world. I am a student seeking a BS in computer science, so I am in no way an authority on the techniques, programs, or coding logic used herein. Shape-Share is a testament to my personal journey developing my first website from scratch.
 
 This repository will document the entirety of the project from server setup to deployment of the site. Be sure to follow this README.md document for full instructions on how to build your very own Shape-Share project and learn along the way.
