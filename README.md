@@ -1,4 +1,4 @@
-** 🚨 Archived: no longer actively being developed 🚨 **
+# 🚨 Archived: no longer actively being developed 🚨
 
 # About Shape_Search 
 Shape-Share is a simple online image sharing platform where members can upload, react, save, and search for images of shapes. A Shape-Share image can be described by its color/s/ and respective shape/s/ using tags for intuitive searches and increased visibility within the community. Members can subscribe to other members to generate a personal feed based off their interests, as well as define a taste profile to help Shape-Share deliver recommendations. Connect with the community on discussion boards and comment on images to share the love. Organize uploads by album, save others' images as favorites, and/or return to previously viewed images with the history feature. All of these tools are available in the Member Dashboard, providing a unique experience for each member.
